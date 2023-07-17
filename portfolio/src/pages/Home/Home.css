@@ -1,7 +1,5 @@
 .body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    min-height: 95vh;
     background: linear-gradient(
         to top right,
         rgba(165, 214, 175, 0.3),

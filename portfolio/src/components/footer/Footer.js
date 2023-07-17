@@ -24,7 +24,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <small className='website-rights'>Mad Money © 2023</small>
+            <small className='website-rights'> Daniel Boxall © 2023</small>
         </div>
     );
 }
