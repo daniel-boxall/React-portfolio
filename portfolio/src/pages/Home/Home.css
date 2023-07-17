@@ -1,0 +1,49 @@
+.body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        to top right,
+        rgba(165, 214, 175, 0.3),
+        rgba(172, 197, 232, 0.9)
+    );
+}
+
+.card {
+    postion: absolute;
+    margin-top: 4rem;
+    margin-left: 35%;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.7);
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease;
+}
+
+.card h2 {
+    font-size: 3rem;
+    color: rgb(92, 140, 191);
+    margin: 0;
+}
+
+.card p {
+    color: rgb(90, 171, 171);
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.card p1 {
+    color: rgb(90, 171, 171);
+    font-weight: 500;
+}
+
+.container {
+    max-width: 75vw;
+}
